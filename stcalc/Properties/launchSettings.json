@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "stcalc": {
+      "commandName": "Project",
+      "commandLineArgs": "-122.67563 2020-03-20 02:50"
+    }
+  }
+}
