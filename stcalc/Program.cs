@@ -72,7 +72,7 @@ namespace stcalc
 
             Console.WriteLine("Greenwich Mean Sidereal Time (dec deg): " + ReduceAngle(theta0));
             Console.WriteLine("Greenwich Mean Sidereal Time (HMS):     " + gmstRA.ToString());
-            Console.WriteLine("Local Mean Sidereal Time (dec deg):     " + lmstRA.Hours);
+            Console.WriteLine("Local Mean Sidereal Time (dec deg):     " + lmstRA.ToDecimalDegrees());
             Console.WriteLine("Local Mean Sidereal Time (HMS):         " + lmstRA.ToString());
             Console.WriteLine(Environment.NewLine);
 
